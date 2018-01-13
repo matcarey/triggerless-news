@@ -1,0 +1,17 @@
+html .trigger-free-news--red-warning {
+    background: red;
+    color: red;
+    cursor: pointer;
+}
+
+html .trigger-free-news--red-warning:after {
+    content: "Red Trigger Warning.  Click to reveal.";
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+html .trigger-free-news--red-warning * {
+    visibility: hidden;
+}

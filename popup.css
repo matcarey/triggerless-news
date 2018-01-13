@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 300px;
+    min-width: 400px;
+}
+
+form input[type=text] {
+    width: 100%;
+    display: block;
+}
+
+form input[type=submit] {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    background: mediumturquoise;
+    color: #333;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
