@@ -1,7 +1,6 @@
 function getStateManager(key) {
     return {
         getArray: function () {
-            console.log('gettingArray')
             return new Promise(function (res) {
                 chrome.storage.sync.get(key, function (answer) {
                     res(JSON.parse(answer[key] || '[]'));
