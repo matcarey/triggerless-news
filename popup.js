@@ -11,7 +11,7 @@ if (triggerForm) {
         e.preventDefault();
         const redTriggerValue = redTrigger.value;
         const valueToStore = redTriggerValue.split(',').map(x => x.trim());
-        state.setArray(valueToStore).then(resetValues);
+        state.setArray(valueToStore).then(resetValues).then(() => {window.close()});
     });
     resetValues();
 } else {
