@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "See No Evil News",
-  "description": "(BETA release) This extension will block potentially triggering items from news sites.  As this is an early release it currently only works on The Guardian website, more sites and features will be added.",
+  "description": "(BETA) This extension will block potentially triggering items from news sites.  Currently this only works on The Guardian website.",
   "version": "0.0.1",
   "browser_action": {
     "default_icon": "icon-small.png",
